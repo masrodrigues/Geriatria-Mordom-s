@@ -1,0 +1,8 @@
+body{
+    height: 100vh;
+    
+   /* background-image: url(../img/background1.png); */
+    background: linear-gradient(90deg, #ffffff96  , hsla(0, 0%, 100%, 0)), url(../img/background1.png);
+    
+
+}
