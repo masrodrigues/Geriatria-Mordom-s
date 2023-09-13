@@ -1,0 +1,9 @@
+body{
+    height: 100vh;
+    background: linear-gradient(90deg, #ffffff96  , hsla(0, 0%, 100%, 0)), url(../img/background1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+        
+}
+
