@@ -1,24 +1,25 @@
-.first{
+.first {
     height: 100vh;
-    background: linear-gradient(90deg, #ffffff96  , hsla(0, 0%, 100%, 0)), url(../img/background1.png);
+    background: linear-gradient(90deg, #ffffff96, hsla(0, 0%, 100%, 0)), url(../img/background1.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
-        
+
 }
 
-.sobre-nos{
+.sobre-nos {
     height: 100vh;
-    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../img/background2.png);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.39)), url(../img/background2.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
     padding: 0px 320px 0px 320px;
-    
+
     justify-content: center;
 }
+
 .sobre-nos h1 {
-    
+
     font-size: 5rem;
     color: #22668C;
     font-family: 'Paytone One', sans-serif;
@@ -26,11 +27,40 @@
 }
 
 
-.sobre-nos p{
+.sobre-nos p {
     font-size: 3rem;
-    color:#fff;
+    color: #fff;
     font-family: 'Paytone One', sans-serif;
-      display: flex;
-      width: 1200px;
+    display: flex;
+    width: 1200px;
+}
+
+.unidade {
+    height: 100vh;
+    background-image: linear-gradient(rgba(109, 109, 109, 0.329), rgba(119, 119, 119, 0.445)), url(../img/background3.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 320px 0px 320px;
+
+}
+
+.unidade h1 {
+    font-size: 5rem;
+    color: #22668C;
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.unidade p {
+    
+    justify-content: center;
+    font-size: 2rem;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 1800px;
+    
 
 }
