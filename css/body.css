@@ -1,4 +1,4 @@
-body{
+.first{
     height: 100vh;
     background: linear-gradient(90deg, #ffffff96  , hsla(0, 0%, 100%, 0)), url(../img/background1.png);
     background-size: cover;
@@ -7,3 +7,30 @@ body{
         
 }
 
+.sobre-nos{
+    height: 100vh;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(../img/background2.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 320px 0px 320px;
+    
+    justify-content: center;
+}
+.sobre-nos h1 {
+    
+    font-size: 5rem;
+    color: #22668C;
+    font-family: 'Paytone One', sans-serif;
+    display: flex;
+}
+
+
+.sobre-nos p{
+    font-size: 3rem;
+    color:#fff;
+    font-family: 'Paytone One', sans-serif;
+      display: flex;
+      width: 1200px;
+
+}
