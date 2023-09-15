@@ -61,6 +61,10 @@
     font-family: 'Roboto', sans-serif;
     display: flex;
     width: 1800px;
-    
-
-}
+    }
+    .unidade img{
+        width: 416px;
+        display: flex;
+        gap: 1rem;
+      
+    }
