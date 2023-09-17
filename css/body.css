@@ -65,6 +65,18 @@
     width: 1800px;
     padding: 2rem;
     }
+
+    .serviços{
+        height: 100vh;
+    background-image: linear-gradient(rgba(109, 109, 109, 0.329), rgba(119, 119, 119, 0.445));
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 320px 0px 320px;
+    align-items: center;
+
+
+    }
     
 .wrapper{
         max-width: 2440px;
