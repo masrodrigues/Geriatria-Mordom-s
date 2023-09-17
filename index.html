@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500&family=Orbitron&family=Poppins:wght@300;400;500&family=Roboto&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,10 +16,11 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/footer.css">
     <title>Mordomos</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="./img/Logo.svg" alt="Logo Mordomos">
+        <img class= logo src="./img/Logo.svg" alt="Logo Mordomos">
         <nav>
             <ul class="links-container">
                 <li>
@@ -36,12 +38,14 @@
                 <li>
                     <a href="#">Contato</a>
                 </li>
-                
+                <li>
+                    <a class="whats" href="#">
+                        <img src="./img/Whats.png" alt="Logo whats">
+                    </a>
+                </li>
             </ul>
         </nav>
-        <a class="whats" href="#">
-            <img src="./img/Whats.png" alt="Logo whats">
-        </a>
+        
     </header>
     <section class="first">
         <main>
@@ -73,59 +77,63 @@
         amplos quartos duplos e coletivos .Esperamos sua visita 
         para conhecer nosso residencial ! Criado para melhor atendê-lo.
     </p>
+
+    <!-- PAGINA FOTOS DA UNIDADE -->
     <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
         <ul class="carousel">
             <li class="card">
-               <div class="img"><img src="./img/foto1.JPG" alt="img"></div>
+               <div class="img"><img src="./img/foto1.JPG" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto2.png" alt="img"></div>
+               <div class="img"><img src="./img/foto2.png" alt="img" draggable="false"></div>
                <h2>A Unidade</h2>
                <span>Ótima localização</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto3.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto3.jpeg" alt="img" draggable="false"></div>
                <h2>Banheiro</h2>
                <span>Banheiros Adptados</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto4.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto4.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto5.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto5.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto6.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto6.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto7.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto7.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto8.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto8.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto9.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto9.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
             <li class="card">
-               <div class="img"><img src="./img/foto10.jpeg" alt="img"></div>
+               <div class="img"><img src="./img/foto10.jpeg" alt="img" draggable="false"></div>
                <h2>Lavanderia</h2>
                <span>Espaço para limpeza</span>
             </li>
         </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
     </div>
 
    </section>

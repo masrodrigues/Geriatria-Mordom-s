@@ -1,17 +1,18 @@
 header{
     padding: 0px 320px 0px 320px;
     background-color: rgba(255, 255, 255, 0.710);
-    height: 184px;
+    height: 120px;
     display: flex;
     justify-content: space-between;
     }
     .links-container{
+        align-items: center;
         display: flex;
-        gap: 29px;
+        gap: 35px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 800;
-        font-size: 16pt;
-        padding: 62px;
+        font-size: 14pt;
+        margin-top: 2rem;
     }
     .links-container a:hover{
         text-shadow: 2px 2px 2px #5c5c5c;
@@ -22,10 +23,18 @@ header{
         transition: all 0.5s;
     }
     .whats img{
+        height: 3rem;
         display: flex;
-        margin-top: 40px;
         transition: all 0.5s;
+        
+              
    }
    .whats img:hover{
     transform: scale(1.2);
+   }
+   .logo{
+    margin-top:1rem;
+    display: flex;
+    height: 90px;
+   
    }
