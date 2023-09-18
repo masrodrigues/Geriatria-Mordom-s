@@ -1,8 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
 header{
     width: 100vw;
     padding: 0px 160px 0px 160px;
     background-color: rgba(255, 255, 255, 0.710);
-    height: 95px;
+    height: 85px;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -42,8 +45,7 @@ header{
         -webkit-animation: floating 4s linear infinite;
         animation: floating 1.3s linear infinite;
         transition: all 0.5s;
-        
-              
+                   
    }
    .whats img:hover{
     transform: scale(1.2);
