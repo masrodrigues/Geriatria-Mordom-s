@@ -66,18 +66,59 @@
     padding: 2rem;
     }
 
-    .serviços{
-        height: 100vh;
-    background-image: linear-gradient(rgba(109, 109, 109, 0.329), rgba(119, 119, 119, 0.445));
+.serviços{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #22668c, #35729d, #477eae, #598bbf, #6c97d0, #6ca4de, #6bb1eb, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     background-size: cover;
     display: flex;
-    flex-direction: column;
-    padding: 0px 320px 0px 320px;
     align-items: center;
-
-
-    }
+    justify-content: space-between;
+    padding: 0px 320px 0px 320px;
     
+}
+  .imgServicos{
+     padding-top: 130px;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+ }
+ .icone{
+    height: 120px;
+    
+ }
+  .lista-servicos{
+    display: flex;
+    margin-left: 150px;
+    max-width: 500px;
+    padding-top: 130px;
+     flex-direction: column;
+    
+  }
+
+
+ .serviços h1{
+   
+    font-size: 4rem;
+    color: #22668C;
+    font-family: 'Paytone One', sans-serif;
+  
+    
+
+ }
+ .serviços p{
+    font-size: 2rem;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    
+    width: 1800px;
+    padding: 1rem;
+
+ }
+
+
 .wrapper{
         max-width: 2440px;
         width: 100%;
