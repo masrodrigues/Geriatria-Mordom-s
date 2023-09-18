@@ -1,9 +1,11 @@
 header{
-    padding: 0px 320px 0px 320px;
+    width: 100vw;
+    padding: 0px 160px 0px 160px;
     background-color: rgba(255, 255, 255, 0.710);
-    height: 120px;
+    height: 95px;
     display: flex;
     justify-content: space-between;
+    position: fixed;
     }
 
     @-webkit-keyframes floating {
@@ -20,10 +22,10 @@ header{
     .links-container{
         align-items: center;
         display: flex;
-        gap: 35px;
+        gap: 20px;
         font-family: 'Open Sans', sans-serif;
         font-weight: 800;
-        font-size: 14pt;
+        font-size: 12pt;
         margin-top: 2rem;
     }
     .links-container a:hover{
@@ -35,7 +37,7 @@ header{
         transition: all 0.5s;
     }
     .whats img{
-        height: 3rem;
+        height: 2.3rem;
         display: flex;
         -webkit-animation: floating 4s linear infinite;
         animation: floating 1.3s linear infinite;
@@ -49,6 +51,6 @@ header{
    .logo{
     margin-top:1rem;
     display: flex;
-    height: 90px;
+    height: 70px;
    
    }
