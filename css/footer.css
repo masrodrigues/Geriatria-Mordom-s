@@ -1,4 +1,79 @@
 footer{
-    background-color: violet;
-    flex-grow: 1;
+  
+    height: 350px;
+    background-image: linear-gradient(to left, #bebebe, #bdb3d4, #c2a5e6, #cd94f3, #de7efa, #e181fc, #e584fd, #e887ff, #dea4ff, #dabcfc, #dcd2f3, #e5e5e5);
+    padding: 0px 320px 0px 320px;
+    
+}
+.principal{
+   display: flex;
+   margin: 0;
+   padding: 0;
+   justify-content: space-between;
+}  
+   
+
+.email{
+    height: 50px;
+    width: 50px;
+}
+.local{
+    height: 50px;
+    width: 50px;
+    
+}
+.informations{
+    padding-top: 1rem;
+    display: flex;
+    font-size: 18px;
+}
+.informations p{
+    
+    padding: 18px;
+}
+
+.informations img{
+    
+   margin-left:21px;
+}
+
+.informations2{
+    padding-top: 1rem;
+    display: flex;
+    font-size: 18px;
+}
+.informations2 p{
+    
+    padding: 18px;
+}
+
+.informations2 img{
+    
+   margin-left:21px;
+}
+.redes{
+    height: 50px;
+    width: 50px;
+}
+.logos{
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    flex-direction: column;
+
+}
+.social{
+     display: flex;
+    margin-top: 3rem;
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    
+}
+.social img{
+    transition: all 0.5s;
+}
+
+.social img:hover{
+    transform: scale(1.2);
 }
