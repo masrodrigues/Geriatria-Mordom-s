@@ -204,7 +204,6 @@
 .carousel.dragging .card{
     cursor: grab;
     user-select: none;
-
 }
 
 .carousel .card{
