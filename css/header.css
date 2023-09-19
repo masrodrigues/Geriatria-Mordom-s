@@ -1,7 +1,8 @@
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
-header{
+
+header {
     width: 100vw;
     padding: 0px 160px 0px 160px;
     background-color: rgba(255, 255, 255, 0.710);
@@ -9,9 +10,11 @@ header{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    }
+    z-index: 9999;
 
-    @-webkit-keyframes floating {
+}
+
+@-webkit-keyframes floating {
     0%, 100% {
         -webkit-transform: translateY(0rem);
         transform: translateY(0rem);
@@ -22,37 +25,43 @@ header{
         transform: translateY(-0-0.5rem);
     }
 }
-    .links-container{
-        align-items: center;
-        display: flex;
-        gap: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        font-size: 12pt;
-        margin-top: 2rem;
-    }
-    .links-container a:hover{
-        text-shadow: 2px 2px 2px #5c5c5c;
-        color: rgb(255, 123, 178);
-        
-    }
-    .links-container a{
-        transition: all 0.5s;
-    }
-    .whats img{
-        height: 2.3rem;
-        display: flex;
-        -webkit-animation: floating 4s linear infinite;
-        animation: floating 1.3s linear infinite;
-        transition: all 0.5s;
-                   
-   }
-   .whats img:hover{
+
+.links-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12pt;
+    margin-top: 2rem;
+}
+
+.links-container a:hover {
+    text-shadow: 2px 2px 2px #5c5c5c;
+    color: rgb(255, 123, 178);
+
+}
+
+.links-container a {
+    transition: all 0.5s;
+}
+
+.whats img {
+    height: 2.3rem;
+    display: flex;
+    -webkit-animation: floating 4s linear infinite;
+    animation: floating 1.3s linear infinite;
+    transition: all 0.5s;
+
+}
+
+.whats img:hover {
     transform: scale(1.2);
-   }
-   .logo{
-    margin-top:1rem;
+}
+
+.logo {
+    margin-top: 1rem;
     display: flex;
     height: 70px;
-   
-   }
+
+}
