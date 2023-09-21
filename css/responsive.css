@@ -1,65 +1,68 @@
-@media(max-width:1280px){
-/* Header */
-    header{
-    width: 100vw;
-    padding: 0px 160px 0px 160px;
-    
+@media screen and (max-width:768px){
+header{
+    display: none;
     }
+main{
    
-    .logo{
-         margin-top:1rem;
-        display: flex;
-        height: 60%;
-    }
-     .whats img{
-        height: 2rem;
-        
-     }
-/* First */
-    .links-container{
-        align-items: center;
-        display: flex;
-        gap: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 800;
-        font-size:12pt;
-        margin-top: 2rem;
-    }
-    main{
-      padding: 0px 160px 0px 160px
-    }
-    .content-container h1{
-       font-size:3rem;
-    }
-    .content-container span{
-    font-size: 1.8rem;
-    }
-/* Sobre nós */
-    .sobre-nos {
-    width: 100vw;
-    padding: 0px 160px 0px 160px;
-    }
-     .sobre-nos h1{
-       font-size:3rem;
-    }
-    .sobre-nos p{
-        max-width: 800px;
-        font-size: 1.8rem;
-    }
-    /* Nossa Unidade */
-    .unidade {
-        padding: 0px 160px 0px 160px;
-    }
+    padding: 0px 20px 0px 20px;
+    width: 100%;
+     
     
-.unidade h1{
-       font-size:3rem;
-    }
-    .unidade p {
-    text-align: center;
-    font-size: 2rem;
-    display: flex;
-    max-width: 1080px;
-    padding: 2rem;
-    }
 }
-    
+body{
+    padding: 0px;
+   
+}
+/* ################################ */
+.first{
+    width: auto;
+   
+}
+.content-container{
+    align-items: center;
+    width: 100vh;
+    padding:0px;
+}
+.content-container h1{
+    text-align: center;
+    padding-top:37rem;
+    font-size:4rem;
+}
+.content-container span{
+    font-size: 2rem;
+}
+
+/* ################################ */
+.sobre-nos{
+    padding: 0px;
+    width: 100vh;
+}
+.sobre-nos h1 {
+    font-size: 2rem;
+    padding: 0px 40px 0px 40px;
+    margin-top: 0.8rem;
+}
+
+.sobre-nos p {
+    font-size: 1.7rem;
+     width: 50vh;
+    padding: 0px 40px 0px 40px;
+}
+
+/* ################################ */
+.unidade {
+     width: auto;
+}
+/* ################################ */
+.servicos{
+    display: none;
+}
+/* ################################ */
+.atividades{
+    display: none;
+}
+/* ################################ */
+footer{
+    display: none;
+}
+}
