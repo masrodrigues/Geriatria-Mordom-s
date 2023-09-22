@@ -25,6 +25,9 @@ header {
         transform: translateY(-0-0.5rem);
     }
 }
+.whatsresponse{
+    display: none;
+}
 
 .links-container {
     align-items: center;

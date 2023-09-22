@@ -1,13 +1,35 @@
 @media screen and (max-width:768px){
 header{
+    width: 100vw;
+    padding: 0px 25px 0px 25px;
+    background-color: rgba(255, 255, 255, 0.710);
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 9999;
+
+}
+.links-container {
     display: none;
-    }
+}
+.whatsresponse{
+display: flex;
+margin-top: 1.5rem;
+width: 2.5rem;
+height: 2.5rem;
+-webkit-animation: floating 5s linear infinite;
+    animation: floating 1.3s linear infinite;
+    transition: all 1s;
+
+}
+
+.whatsresponse img:hover {
+    transform: scale(3);
+}
 main{
-   
     padding: 0px 20px 0px 20px;
     width: 100%;
-     
-    
 }
 body{
     padding: 0px;
@@ -25,37 +47,109 @@ body{
 }
 .content-container h1{
     text-align: center;
-    padding-top:37rem;
-    font-size:4rem;
+    padding-top:32rem;
+    font-size:2rem;
 }
 .content-container span{
-    font-size: 2rem;
+    font-size: 1.2rem;
+    
 }
 
 /* ################################ */
 .sobre-nos{
+    width: 390px;
+    height: auto;
+    align-items: center;
     padding: 0px;
-    width: 100vh;
+  
 }
 .sobre-nos h1 {
     font-size: 2rem;
     padding: 0px 40px 0px 40px;
-    margin-top: 0.8rem;
+    margin-top: 0.3rem;
 }
 
 .sobre-nos p {
-    font-size: 1.7rem;
-     width: 50vh;
-    padding: 0px 40px 0px 40px;
+    font-size: 1rem;
+    max-width: 300px;
+    width: 100vh;
+    text-align: center;
+    padding: 20px 40px 40px 40px;
 }
 
 /* ################################ */
 .unidade {
-     width: auto;
+    width: 100vw;
+    align-items: center;
+    padding: 0px;
 }
+.unidade h1 {
+    font-size: 2rem;
+}
+.unidade p {
+    font-size: 1rem;
+}
+.wrapper{
+    max-width: 300px;
+        width: auto;
+        position: relative;
+     }
+     .wrapper i:first-child{
+    left: -30px;
+}
+.carousel .card{
+ height: 360px;
+}
+.card .img img{
+    width: 290px;
+    height:290px;
+}
+.wrapper i:last-child{
+    right: -22px;
+}
+.wrapper i{
+    height: 35px;
+    width: 35px;
+    line-height: 41px;
+}
+
+
 /* ################################ */
 .servicos{
-    display: none;
+    align-items: center;
+    flex-direction: column;
+      
+}
+
+ .lista-servicos{
+    align-items: center;
+    width: 100vw;
+    
+   
+ }
+.lista-servicos h1{
+   
+    font-size: 2rem;
+}
+.lista-servicos p{
+    font-size: 1.5rem;
+    padding: 0px;
+}
+
+
+
+ .imgServicos {
+   
+    width: 100vw;
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+ }
+ .icone{
+    height: 50px;
+    width: 50px;
 }
 /* ################################ */
 .atividades{
