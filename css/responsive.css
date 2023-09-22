@@ -224,10 +224,11 @@ footer{
     margin-right: 2rem;
     gap: 1rem;
 }
-.logos{
-   
+.logo1{
+   width: 150px;
     margin-left: 1rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    
 }
 .informations2 p{
     margin: 0;
