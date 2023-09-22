@@ -57,8 +57,8 @@ body{
 
 /* ################################ */
 .sobre-nos{
-    width: 390px;
-    height: auto;
+    width: 100%;
+    background-image: linear-gradient(to right top, #22668c, #35729d, #477eae, #598bbf, #6c97d0, #6ca4de, #6bb1eb, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     align-items: center;
     padding: 0px;
   
@@ -70,7 +70,7 @@ body{
 }
 
 .sobre-nos p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     max-width: 300px;
     width: 100vh;
     text-align: center;
@@ -116,47 +116,105 @@ body{
 
 /* ################################ */
 .servicos{
+    margin:0px;
+    padding:0;
+    justify-content: center;
     align-items: center;
+    width: auto;
     flex-direction: column;
       
 }
 
  .lista-servicos{
-    align-items: center;
-    width: 100vw;
-    
+  margin: 0;
+  padding:0;
+  line-height: 35px;
    
  }
 .lista-servicos h1{
-   
     font-size: 2rem;
 }
 .lista-servicos p{
+    margin-top: 10px;
+    justify-items: center;
     font-size: 1.5rem;
-    padding: 0px;
+    padding: 0;
 }
-
-
-
  .imgServicos {
    
     width: 100vw;
-    margin-left: 15rem;
-    margin-bottom: 5rem;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 120px;
     flex-direction: row;
     gap: 15px;
  }
  .icone{
+    
     height: 50px;
     width: 50px;
 }
 /* ################################ */
 .atividades{
-    display: none;
+    width: auto;
+    margin:0px;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+ .lista-atividades{
+  margin: 0;
+  padding:0;
+  line-height: 35px;
+   
+ }
+
+.atividades h1{
+    font-size: 2rem;
+}
+.atividades p{
+    justify-items: center;
+    font-size: 1.3rem;
+    padding: 0;
+}
+.imgAtividades {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 120px;
+    flex-direction: row;
+    gap: 15px;
+
+}
+.atv{
+    height:60px;
+    width: 60px;
+}
+
 /* ################################ */
 footer{
-    display: none;
+    width: auto;
+    margin:0px;
+    padding:0;
+}
+.redes{
+    height: 20px;
+    width: 20px;
+}
+.social{
+    margin-top: 2rem;
+    margin-right: 2rem;
+    gap: 1rem;
+}
+.logos{
+   
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+footer .informations{
+   align-items: center;
 }
 }
