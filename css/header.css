@@ -68,3 +68,24 @@ header {
     height: 70px;
 
 }
+.contato{
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: row;
+    justify-items: center;
+    gap: 10px;
+}
+i{
+    color: #22668C;
+    font-weight: 800;
+    color:#22668C;
+  
+}
+
+.fixo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 800;
+    color:#22668C;
+   
+}

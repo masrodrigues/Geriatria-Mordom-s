@@ -23,6 +23,19 @@ height: 2.5rem;
     transition: all 1s;
 
 }
+.fixo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    font-weight: 800;
+    color:#22668C;
+}
+.contato{
+    display: flex;
+    margin-top: 2.5rem;
+    flex-direction: row;
+    justify-items: center;
+    gap: 5px;
+}
 
 .whatsresponse img:hover {
     transform: scale(3);
