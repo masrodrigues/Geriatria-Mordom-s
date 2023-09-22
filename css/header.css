@@ -69,6 +69,7 @@ header {
 
 }
 .contato{
+    
     display: flex;
     margin-top: 2.5rem;
     flex-direction: row;

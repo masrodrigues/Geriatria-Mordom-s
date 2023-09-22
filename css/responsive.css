@@ -13,15 +13,17 @@ header{
 .links-container {
     display: none;
 }
-.whatsresponse{
+.whatsr .whatsresponse{
 display: flex;
 margin-top: 1.5rem;
-width: 2.5rem;
-height: 2.5rem;
+width: 2rem;
+height: 2rem;
 -webkit-animation: floating 5s linear infinite;
-    animation: floating 1.3s linear infinite;
-    transition: all 1s;
-
+animation: floating 1.3s linear infinite;
+transition: all 1s;
+}
+.whatsr img:hover {
+    transform: scale(3);
 }
 .fixo{
     font-family: 'Open Sans', sans-serif;
@@ -30,16 +32,17 @@ height: 2.5rem;
     color:#22668C;
 }
 .contato{
+    margin-right: 2rem;
     display: flex;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     flex-direction: row;
-    justify-items: center;
-    gap: 5px;
-}
+    }
+    .logo{
+         display: flex;
+    height: 35px;
+    }
 
-.whatsresponse img:hover {
-    transform: scale(3);
-}
+
 main{
     padding: 0px 15px 0px 15px;
     width: 100%;
