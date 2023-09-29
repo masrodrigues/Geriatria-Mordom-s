@@ -1,6 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11350146843"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-11350146843');
+</script>
+<!-- Event snippet for WhatsApp conversion page -->
+<script>
+document.addEventListener("click", function (e) {
+e.composedPath().forEach(function (e) {
+if (e.hostname == 'wa.me' || e.hostname == 'web.whatsapp.com' || e.hostname == 'api.whatsapp.com' || e.hostname == 'wa.link') {
+console.log('Botão do WhatsApp');
+
+gtag('event', 'conversion', {'send_to': 'AW-11350146843/rjqxCIG50OYYEJv-laQq'}); }
+});
+});
+
+</script>
+
+<!-- Event snippet for Instagram conversion page -->
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+document.querySelectorAll('a[href*="instagram"]').forEach(function (el) {
+el.addEventListener('click', function () {
+console.log('Instagram conversion')
+gtag('event', 'conversion', {'send_to': 'AW-11350146843/T-BcCKCC0-YYEJv-laQq'}); })
+})
+})
+</script>
+
+<!-- Event snippet for Facebook conversion page -->
+<script>
+window.addEventListener('DOMContentLoaded', function () {
+document.querySelectorAll('a[href*="facebook"]').forEach(function (el) {
+el.addEventListener('click', function () {
+console.log('Facebook conversion')
+gtag('event', 'conversion', {'send_to': 'AW-11350146843/27j1CKOC0-YYEJv-laQq'}); })
+})
+})
+</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
