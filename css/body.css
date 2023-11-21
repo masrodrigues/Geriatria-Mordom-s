@@ -28,7 +28,7 @@
     align-items: center;
 
 }
-   
+
 
 .sobre-nos h1 {
     font-size: 3rem;
@@ -46,9 +46,8 @@
   }
 
 
-
 .unidade h1 {
-    margin-top: 7rem;
+    margin-top: 6rem;
     font-size: 2rem;
     color: #22668C;
     font-family: 'Paytone One', sans-serif;
@@ -229,7 +228,58 @@
       
     }
 
+    /* Section Video */
+    .container2{
+       
+        min-height: 100vh;
+        background: #334;
+    }
+    .container2 h1{
+      
+        padding: 1rem;
+        font-size: 3rem;
+        color: #22668C;
+        font-family: 'Paytone One', sans-serif;
+        text-align: center;
+        font-weight: normal;
+    }
+    .container2 .video-container{
+        display: flex;
+        margin-left: 10rem;
+        margin-right: 10rem;
+        justify-content: space-between;
+        align-items: center; 
+       
+}
+    .container2 .video-container .video {
+        max-width: 50%; 
+
+}
+    .container2 .video-container p {
+        max-width: 50%; 
+        font-size: 22pt;
+        text-align: center;
  
+}
+
+    .container2 .video-container .video{
+        height: 500px;
+        width: 300px;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+        cursor: pointer;
+        overflow: hidden;
+}
+    .container2 .video-container .video video{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transition: 0.2s linear;
+}
+    .container2 .video-container .video:hover video{
+        transform: scale(1.1);
+}
 
     @media screen and (max-width: 1370px) {
         .wrapper .carousel {
