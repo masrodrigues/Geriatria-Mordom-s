@@ -18,18 +18,6 @@
     
 }
 
-.unidade {
-    height: 100vh;
-    display: flex;
-    background-image: linear-gradient(rgba(242, 242, 242, 0.811), rgba(255, 255, 255, 0.703)), url(../img/WhatsApp\ Image\ 2023-09-05\ at\ 12.05.35.jpeg);
-    background-size: cover;
-    flex-direction: column;
-    padding: 0px 160px 0px 160px;
-    align-items: center;
-
-}
-
-
 .sobre-nos h1 {
     font-size: 3rem;
     color: #22668C;
@@ -46,14 +34,60 @@
   }
 
 
+.unidade {
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(rgba(242, 242, 242, 0.811), rgba(255, 255, 255, 0.703)), url(../img/WhatsApp\ Image\ 2023-09-05\ at\ 12.05.35.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    padding: 0px 160px 0px 160px;
+    align-items: center;
+
+}
+
+
+
+
 .unidade h1 {
-    margin-top: 6rem;
+    margin-top: 0.5rem;
     font-size: 2rem;
     color: #22668C;
     font-family: 'Paytone One', sans-serif;
     justify-content: center;
     
 }
+
+.unidade h2.valor.destaque {
+    margin-top: 0.4rem;
+    padding: 20px; /* Adiciona um espaço interno ao redor do texto */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra sutil para destacar o elemento */
+    background-color: #f8f8f8; /* Cor de fundo suave para o destaque */
+    border-radius: 8px; /* Bordas arredondadas para estética suave */
+    font-size: 1.5rem;
+    color: #6e77fc;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
 
 .unidade p {
     font-size: 1.5rem;
@@ -115,13 +149,13 @@
     background-size: cover;
     display: flex;
     justify-content: space-between;
-    padding: 0px 160px 0px 160px;
+    padding: 0px 120px 0px 160px;
     align-items: center;
  }
   .imgAtividades {
     display: flex;
     margin-right:8rem;
-    padding-top: 130px;
+    padding-top: 120px;
     flex-direction: column;
     gap: 30px;
  }
@@ -136,8 +170,9 @@
   }
  
  .atv{
-    height: 120px;
+    height: 100px;
     width: 120px;
+    
  }
  .atividades h1{
     font-size: 3rem;
