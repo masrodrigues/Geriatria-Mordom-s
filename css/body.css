@@ -1,6 +1,6 @@
 .first {
     height: 100vh;
-    background: linear-gradient(90deg, #e1e1e196, hsla(0, 0%, 93%, 0.235)), url(../img/background1.png);
+    background: linear-gradient(90deg, #e1e1e196, hsla(0, 0%, 93%, 0.235)), url(../img/home.jpeg);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -10,7 +10,7 @@
 .sobre-nos {
     height: 100vh;
     display: flex;
-    background: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.39)), url(../img/background2.png);
+    background: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.39)), url(../img/sobre_nos.png);
     background-size: cover;
     flex-direction: column;
     padding: 0px 160px 0px 160px; 
